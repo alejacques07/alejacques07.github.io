@@ -1,5 +1,6 @@
 body{
   	background-color: #38610B;
+  	font: 20px Arial, sans-serif;
 }
 
 .bg-footer{
@@ -7,6 +8,6 @@ body{
 	color: white;	
 }
 .margin{
-	padding: 50px;
-	padding: 10px;
+	padding-bottom: 50px;
+	padding-top: 10px;
 }
