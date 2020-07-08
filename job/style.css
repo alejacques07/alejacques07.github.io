@@ -1,5 +1,11 @@
   
 
-    background-color: rgba(255,0,0,0.5);
+  body{
+  	background-color: rgba(255,0,0,0.5);
+}
 
+.bg-footer{
+	background-color: black;
+	color: white;
 
+}
