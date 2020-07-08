@@ -4,5 +4,9 @@ body{
 
 .bg-footer{
 	background-color: black;
-	
+	color: white;	
+}
+.margin{
+	padding: 50px;
+	padding: 10px;
 }
