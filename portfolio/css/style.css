@@ -1,0 +1,88 @@
+body{
+	background-color: #F0FFF0;
+
+}
+
+.nav{
+    background-color: #f4f3ee;
+
+}
+
+.margin{
+       padding-bottom: 10px;
+       padding-top: 0px;
+}
+
+.footer{
+    font-family: "palatino linotype", palatino, serif;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    position: fixed;
+    width: 100%;
+    text-align: right;
+    bottom: 0;
+    left: 0;
+}
+
+    /* foto */
+.home{ 
+  background-color: #F5FFFA;
+    width: 50%;
+    position: relative;
+    border: 10px solid transparent;
+}
+
+.img-thumbnail{
+    border: 1px solid;
+    color: black;
+}
+
+.rounded{
+    border: 3px solid;
+    color: black;
+    width: 400px;
+    height: 400px;
+}
+.rounded{
+    border: 3px solid;
+    color: black;
+    width: 400px;
+    height: 400px;
+}
+
+.contato{
+    font-family: "lucida sans unicode", "lucida grande", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: fixed;
+    top: 25%;
+    left: -2%;
+    margin-top: ;   
+}
+.icone{
+  position: fixed;
+  left: 0%;
+}
+.projetos{
+  background-color: #F5FFFA ;
+  font-family: georgia, serif;
+  font-size: 14px;
+  text-align: left; 
+  width: 50%; 
+}
+.sobre{
+  
+  font-size: 14px;
+  background-color: #F5FFFA;
+  width: 100%;
+  right: -25%;
+  text-align: center;  
+  top: 25%;
+   
+ }
+ .curriculo{
+  text-align: center;
+  color: rgb(0,0,0);
+ }
+
