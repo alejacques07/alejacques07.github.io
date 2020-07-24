@@ -1,13 +1,12 @@
 body{
 	background-color: #F0FFF0;
-
 }
 
 .nav{
-    background-color: #f4f3ee;
-
+    background-color: ;
+    position: relative;
+    
 }
-
 .margin{
        padding-bottom: 10px;
        padding-top: 0px;
@@ -27,10 +26,13 @@ body{
 
     /* foto */
 .home{ 
-  background-color: #F5FFFA;
-    width: 50%;
-    position: relative;
+    
+    background-color: #F5FFFA;  
     border: 10px solid transparent;
+    width: 50%;
+    height: -80px;
+    text-align: center;
+        
 }
 
 .img-thumbnail{
@@ -38,12 +40,6 @@ body{
     color: black;
 }
 
-.rounded{
-    border: 3px solid;
-    color: black;
-    width: 400px;
-    height: 400px;
-}
 .rounded{
     border: 3px solid;
     color: black;
@@ -60,10 +56,24 @@ body{
     left: -2%;
     margin-top: ;   
 }
-.icone{
-  position: fixed;
-  left: 0%;
+
+a:link{
+    color: black;
 }
+
+.botao{
+    text-align: center;
+    right: -80%;
+}
+
+a:hover{
+    text-decoration: none;
+    color: ;
+    font-weight: bold;
+    border-color: #B1B1B1;
+}
+
+
 .projetos{
   background-color: #F5FFFA ;
   font-family: georgia, serif;
@@ -90,3 +100,7 @@ body{
     background-color: #F5FFFA;
 }
 
+.border border-secondary{
+    color: red;
+    text-align-last: center;
+}
