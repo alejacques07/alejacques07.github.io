@@ -1,0 +1,49 @@
+
+body{
+    background-color: #CCC;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh; /* vh largura e altura*/
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+	font-family: Helvetica, sans-serif;
+	font-size: 40px;
+	border: 2px solid red;
+	padding: 20px 40px;
+	transition: all 0.3s
+}
+
+a:hover {
+	border: 3px solid #047952;
+	color: #047952;
+	animation: shake 0.2s linear 1;
+}
+
+/*@keyframes shake {
+	49% { transform: rotate(10deg); }
+
+	66% { transform: rotate(-10deg); }
+
+	100% { transform: rotate(10deg); }
+} */
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
