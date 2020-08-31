@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #B0C4DE;  
+}
+
+#container{
+	width: 100%;
+    padding-top: 60px;
+	min-width: 720px;
+	min-height: 720px;
+	max-width: 920px;
+	max-height: 920px;
+	margin: 0 auto;
+}
+
+h2{
+	text-transform: uppercase;
+	font-style: bold;
+	text-align: center;
+	padding: 20px;
+	color: #0a3d62;
+}
+
+ul{
+	list-style: none;
+
+}
+
+.img-principal{	
+	border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#topo{
+	padding-top: 42px;
+	width: 380px;
+	margin: 0 auto;
+    text-align: center;
+	
+}
+
+#menu ul a{
+	text-decoration: none;
+	line-height: 40px;
+	color: #0a3d62;	
+}
+
+#menu ul a:hover{
+	background: #4682B4 url(../imagens/marcador.png) no-repeat left;
+	padding-left: 30px;
+	
+}
+
+/*formatando links*/
+.sm{
+  margin: 16px auto;
+  justify-content: center;
+  display: flex;
+  max-width: 700px;
+}
+.sm a{
+  text-decoration: none;
+  font-size: 28px;
+  color: #f1f1f1;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  transition: 0.4s all;
+  line-height: 38px;
+  cursor: pointer;
+  background: #314652;
+  border-radius: 50%;
+  margin: 0 16px;
+}
+.sm a:hover{
+  transform: scale(1.2);
+}
+
