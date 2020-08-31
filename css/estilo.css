@@ -3,7 +3,8 @@
 	padding: 0;
 }
 body{
-	background: #B0C4DE;  
+	background: #B0C4DE;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 #container{
