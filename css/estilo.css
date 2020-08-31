@@ -4,10 +4,8 @@
 }
 body{
 	background: #B0C4DE;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	
-	@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
-
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 }
 
 #container{
