@@ -1,3 +1,5 @@
+
+/*** Configurações gerais ***/
 *{
 	margin: 0;
 	padding: 0;
@@ -5,12 +7,12 @@
 body{
 	background: #B0C4DE;
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
-	font-size: 16px;
+  font-size: 16px;
 }
-
+/*** Formatação geral ***/
 #container{
 	width: 100%;
-    padding-top: 180px;
+  padding-top: 180px;
 	min-width: 720px;
 	min-height: 720px;
 	max-width: 920px;
@@ -18,13 +20,13 @@ body{
 	margin: 0 auto;
 }
 
-#topo{
-	padding-top: 42px;
-	width: 380px;
-	margin: 0 auto;
+/*** Foto e home ***/
+header{
+	  padding-top: 42px;
+	  width: 380px;
+	  margin: 0 auto;
     text-align: center;	
 }
-
 h2{
 	text-transform: uppercase;
 	font-style: bold;
@@ -32,31 +34,38 @@ h2{
 	padding: 20px;
 	color: #0a3d62;
 }
-
 ul{
 	list-style: none;
 }
 
-/*formatando imagem*/
+/*** Formatando imagem ***/
 .img-principal{	
 	border-radius: 50%;
     width: 150px;
     height: 150px;
 }
+/*** Formatando imagem 2 "galeria/portfólio" ***/
+.img-principal-2{	
+	  border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.img-principal-2 a:hover{
+  opacity: 0.5;
+}
 
-/*barra de navegação*/
-#menu ul a{
+/*** Barra de navegação ***/
+nav ul a{
 	text-decoration: none;
 	line-height: 40px;
 	color: #0a3d62;	
 }
-
-#menu ul a:hover{
+nav ul a:hover{
 	background: #4682B4 url(../imagens/marcador.png) no-repeat left;
 	padding-left: 30px;
 }
 
-/*formatando links*/
+/*** Formatando links | redes sociais ***/
 .sm{
   margin: 16px auto;
   justify-content: center;
@@ -79,5 +88,39 @@ ul{
 }
 .sm a:hover{
   transform: scale(1.2);
+}
+
+/*** Página repositório ***/
+.galeria{
+  display: flex;
+    margin: 0 auto;
+    width: 950px;
+}
+.icon-olho-visao{
+  margin: 0 8px;
+  text-align: center;
+}
+#projetos{
+  flex-wrap: wrap;
+  display: flex;  
+}
+#img1{
+  margin: 0 15px;
+}
+#img1 a{
+  color: #000;
+  text-decoration: none;
+}
+#img1 a:hover{
+  width: 400px;;
+  opacity: 0.5;
+}
+p{
+  text-align: center;
+}
+h5{
+  margin: 0 488px;
+  padding: 12px;
+  text-transform: uppercase;
 }
 

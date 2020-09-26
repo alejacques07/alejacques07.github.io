@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+}
+
+/* Estrutura da barra de navegação */
+header{
+	padding: 12px 0;
+	height: 22px;
+	text-align: center;
+	background: green;
+}
+
+nav{
+ 	list-style: none;
+}
+
+nav a {
+ 	color: #fff;
+ 	padding: 12px;
+ 	font-size: 0.8rem;
+}
+
+ nav a:link {
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	/*font-weight: bold; */
+}
+
+nav a:hover {
+ 	background: #fff;
+ 	color: #000;	
+}
+
+input{
+	height: 18px;
+	border: 3px solid #fff;
+}
+
+
+/***** Tag aviso *****/
+section#aviso{
+	width: ;
+	background: #000;
+	text-align: center;
+	padding: 8px;
+}
+
+#aviso a{
+	
+	background-color: #000;
+	color: red;
+
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.7rem;
+}
+
+#aviso a:link{
+	text-decoration: none;
+	
+}
+
+#aviso a:hover{
+	color: #fff;
+}
+
+/******* Lançamentos *******/
+#lancamentos{
+	background: #ccc;
+	padding: 34px;
+}
+
+#lancamentos a{
+	color: #000;
+}
+
+ p{
+	font-size: 0.7em;
+	margin-top: 8px;	
+}
+
+ ul {
+
+	height: 62px;
+  	list-style-type: none;
+  	margin: 0px 440px;
+  	text-transform: uppercase;
+}
+ul li {
+  	float: left;
+ 	padding: 2px;
+}
+
+ ul li img{
+	margin: 0px 10px 10px 0px;
+	float: left;
+}
+
+ ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+ ul li a:hover {
+  background: #ccc;
+  color: white;
+}
+
+
+
+
+
+/**** Destaquess *****/
+#destaques{
+	display: block;
+	text-align: ;
+	width: 880px;
+	margin: 5px 440px;
+}
+
+
+/*** Atualizações ****/
+
+#atualizacoes{
+	display: block;
+	text-align: ;
+	/*border: 1px solid red;*/
+	width: 750px;
+	margin: 5px 440px;
+}
+
+h4{
+	width: 148px;
+	margin: 8px 440px;
+	background: #000;
+	color: #fff;
+}
+
+/**** Barra lateral ***/
+
+aside{
+	float: right;
+	position: relative;
+	display: ;
+	margin: 5px;
+	background: #ebe7dd;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	width: 220px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
